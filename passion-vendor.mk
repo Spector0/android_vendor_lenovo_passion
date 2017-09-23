@@ -33,7 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lenovo/passion/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lenovo/passion/proprietary/bin/radish:system/bin/radish \
-    vendor/lenovo/passion/proprietary/bin/rild:system/bin/rild \
     vendor/lenovo/passion/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lenovo/passion/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/lenovo/passion/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -94,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/lenovo/passion/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
     vendor/lenovo/passion/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
-    vendor/lenovo/passion/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
     vendor/lenovo/passion/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm-20795a20.conf:system/etc/libnfc-brcm-20795a20.conf \
     vendor/lenovo/passion/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
@@ -132,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lenovo/passion/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
     vendor/lenovo/passion/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lenovo/passion/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lenovo/passion/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/lenovo/passion/proprietary/lib/libunwind.so:system/lib/libunwind.so \
     vendor/lenovo/passion/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
@@ -151,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/passion/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/lenovo/passion/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/lenovo/passion/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
-    vendor/lenovo/passion/proprietary/lib64/libril.so:system/lib64/libril.so \
     vendor/lenovo/passion/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/lenovo/passion/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
     vendor/lenovo/passion/proprietary/lib64/libvalAuth.so:system/lib64/libvalAuth.so \
@@ -453,7 +449,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     colorservice \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     com.google.android.media.effects \
     com.google.widevine.software.drm \
